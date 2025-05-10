@@ -3,24 +3,26 @@
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  background-color: #1c1c1c; /* Softer dark background */
+  color: #d3d3d3; /* Softer light text */
 }
 
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  color: #333;
+  color: #d3d3d3; /* Softer light text */
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f5f5f5;
+  background-color: #1c1c1c; /* Softer dark background */
 }
 
 header {
   text-align: center;
   padding: 20px 0;
   margin-bottom: 30px;
-  background-color: #1a237e;
-  color: white;
+  background-color: #2a2a2a; /* Softer dark header background */
+  color: #f0f0f0; /* Softer white text */
   border-radius: 5px;
 }
 
@@ -42,12 +44,13 @@ main {
 }
 
 section {
-  background-color: white;
+  background-color: #262626; /* Softer dark section background */
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Subtle shadow */
   width: 100%;
   max-width: 500px;
+  color: #d3d3d3; /* Softer light text */
 }
 
 section h3 {
@@ -60,9 +63,9 @@ section h3 {
 .activity-card {
   margin-bottom: 15px;
   padding: 15px;
-  border: 1px solid #ddd;
+  border: 1px solid #3a3a3a; /* Softer border */
   border-radius: 5px;
-  background-color: #f9f9f9;
+  background-color: #2e2e2e; /* Softer dark background */
 }
 
 .activity-card h4 {
@@ -77,11 +80,11 @@ section h3 {
 .activity-card ul {
   margin-top: 15px;
   padding: 15px;
-  background-color: #f0f8ff; /* Light blue background for emphasis */
-  border: 1px solid #b3d9ff; /* Border to define the section */
+  background-color: #333333; /* Softer dark background for emphasis */
+  border: 1px solid #444444; /* Softer border */
   border-radius: 8px; /* Rounded corners for a modern look */
   list-style-type: square; /* Changed to square for a distinct style */
-  color: #003366; /* Dark blue text for better contrast */
+  color: #c0c0c0; /* Softer light text */
 }
 
 .activity-card ul li {
@@ -111,8 +114,8 @@ section h3 {
 }
 
 button {
-  background-color: #1a237e;
-  color: white;
+  background-color: #4a5bb5; /* Softer button background */
+  color: #f0f0f0; /* Softer white text */
   border: none;
   padding: 10px 15px;
   font-size: 16px;
@@ -122,30 +125,32 @@ button {
 }
 
 button:hover {
-  background-color: #3949ab;
+  background-color: #6a7bcf; /* Softer hover effect */
 }
 
 .message {
   margin-top: 20px;
   padding: 10px;
   border-radius: 4px;
+  background-color: #262626; /* Softer dark background for messages */
+  color: #d3d3d3; /* Softer light text */
 }
 
 .success {
-  background-color: #e8f5e9;
-  color: #2e7d32;
+  background-color: #3b8b3b; /* Softer green for success */
+  color: #f0f0f0; /* Softer white text */
   border: 1px solid #a5d6a7;
 }
 
 .error {
-  background-color: #ffebee;
-  color: #c62828;
+  background-color: #a83a3a; /* Softer red for errors */
+  color: #f0f0f0; /* Softer white text */
   border: 1px solid #ef9a9a;
 }
 
 .info {
-  background-color: #d1ecf1;
-  color: #0c5460;
+  background-color: #2a6fa0; /* Softer blue for info */
+  color: #f0f0f0; /* Softer white text */
   border: 1px solid #bee5eb;
 }
 
@@ -157,5 +162,6 @@ footer {
   text-align: center;
   margin-top: 30px;
   padding: 20px;
-  color: #666;
+  background-color: #2a2a2a; /* Softer dark footer background */
+  color: #d3d3d3; /* Softer light text */
 }
