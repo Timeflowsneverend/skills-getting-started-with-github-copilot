@@ -92,6 +92,7 @@ section h3 {
   font-size: 16px; /* Larger font size for emphasis */
   font-weight: bold; /* Bold text for better visibility */
   text-shadow: 1px 1px 2px #d9e6f2; /* Subtle text shadow for depth */
+  color: #4caf50; /* Updated to green for participant names */
 }
 
 .form-group {
