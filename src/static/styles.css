@@ -75,16 +75,20 @@ section h3 {
 }
 
 .activity-card ul {
-  margin-top: 10px;
-  padding-left: 20px;
-  list-style-type: circle; /* Changed from disc to circle */
-  color: #444; /* Slightly darker color for better contrast */
+  margin-top: 15px;
+  padding: 15px;
+  background-color: #f0f8ff; /* Light blue background for emphasis */
+  border: 1px solid #b3d9ff; /* Border to define the section */
+  border-radius: 8px; /* Rounded corners for a modern look */
+  list-style-type: square; /* Changed to square for a distinct style */
+  color: #003366; /* Dark blue text for better contrast */
 }
 
 .activity-card ul li {
-  margin-bottom: 8px; /* Increased spacing for better readability */
-  font-size: 15px; /* Slightly larger font size */
-  font-style: italic; /* Added italic style for differentiation */
+  margin-bottom: 10px; /* Increased spacing for better readability */
+  font-size: 16px; /* Larger font size for emphasis */
+  font-weight: bold; /* Bold text for better visibility */
+  text-shadow: 1px 1px 2px #d9e6f2; /* Subtle text shadow for depth */
 }
 
 .form-group {
